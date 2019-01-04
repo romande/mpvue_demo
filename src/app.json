@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/user/main",
+    "pages/cabinet/cabinetCloud/main",
+    "pages/cabinet/detail/main",
+    "pages/cabinet/appoint/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/qrcode/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+}
