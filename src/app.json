@@ -1,18 +1,36 @@
 {
   "pages": [
-    "pages/login/main",
-    "pages/user/main",
-    "pages/cabinet/cabinetCloud/main",
-    "pages/cabinet/detail/main",
-    "pages/cabinet/appoint/main",
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/qrcode/main"
+    "pages/main/home/main",
+    "pages/main/circ/main",
+    "pages/main/personal/main",
+    "pages/index/main"
+
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#708090",
+    "selectedColor": "#409eff",
+    "borderStyle":"white",
+    "list": [{
+      "selectedIconPath": "static/icons/main_active.png",
+      "iconPath": "static/icons/main.png",
+      "pagePath": "pages/main/home/main",
+      "text": "首页"
+    }, {
+      "selectedIconPath": "static/icons/circ_active.png",
+      "iconPath": "static/icons/circ.png",
+      "pagePath": "pages/main/circ/main",
+      "text": "流转"
+    }, {
+      "selectedIconPath": "static/icons/personal_active.png",
+      "iconPath": "static/icons/personal.png",
+      "pagePath": "pages/main/personal/main",
+      "text": "我的"
+    }]
   }
 }
